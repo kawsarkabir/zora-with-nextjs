@@ -29,8 +29,8 @@
 1. **Clone the repo:**
 
    ```sh
-   git clone https://github.com/yourusername/zora.git
-   cd e-com-basic
+   git clone https://github.com/kawsarkabir/zora-with-nextjs.git
+   cd zora-with-nextjs
    ```
 
 2. **Install dependencies:**
