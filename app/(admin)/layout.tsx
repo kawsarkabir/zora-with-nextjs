@@ -2,10 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import { dbConnect } from "@/service/mongo";
-
 import Footer from "@/components/Footer";
 import { ThemeProvider } from "next-themes";
-import Header from "@/components/dashboard/Header";
 import { SessionProvider } from "next-auth/react";
 import Navbar from "@/components/Navbar";
 
@@ -42,7 +40,7 @@ export default async function RootLayout({
           disableTransitionOnChange
         >
           <SessionProvider>
-            <Navbar />
+            <Navbar sideMenu={true} />
             {children}
             <Footer />
           </SessionProvider>
