@@ -12,14 +12,14 @@ const productSchema = new Schema({
   category: {
     type: String,
     required: true,
-    enum: ["AI Tool", "Productivity", "Analytics", "Automation"], // Customize for your products
+    enum: ["Smartphones", "Laptops", "Accessories", "Wearables"],
   },
   description: {
     type: String,
     required: false,
   },
   img: {
-    type: String, // URLs or image paths
+    type: String,
     required: false,
   },
 });
