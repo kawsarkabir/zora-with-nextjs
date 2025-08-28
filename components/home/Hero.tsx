@@ -1,13 +1,5 @@
 import { Button } from "@/components/ui/button";
-import {
-  ArrowRight,
-  Play,
-  Star,
-  Shield,
-  Zap,
-  TrendingUp,
-  CheckCircle,
-} from "lucide-react";
+import { ArrowRight, Play, Star, CheckCircle } from "lucide-react";
 import Link from "next/link";
 
 const Hero = () => {
@@ -57,8 +49,9 @@ const Hero = () => {
 
           {/* Subheading */}
           <p className="text-xl md:text-2xl text-slate-600 dark:text-slate-300 mb-12 max-w-3xl mx-auto leading-relaxed font-light">
-            Curated collection of innovative gadgets designed to upgrade your lifestyle, 
-            boost productivity, and bring futuristic technology to your fingertips.
+            Curated collection of innovative gadgets designed to upgrade your
+            lifestyle, boost productivity, and bring futuristic technology to
+            your fingertips.
           </p>
 
           {/* Feature Highlights */}
