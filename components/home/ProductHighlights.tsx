@@ -14,12 +14,9 @@ import { Badge } from "@/components/ui/badge";
 import {
   Star,
   ArrowRight,
-  Shield,
   Sparkles,
   Clock,
   ShoppingCart,
-  Truck,
-  RotateCcw,
   Award,
 } from "lucide-react";
 import Link from "next/link";
@@ -84,7 +81,7 @@ const ProductHighlights = () => {
             Featured Collection
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-            Top-Rated{" "}
+            Top-Rated
             <span className="bg-gradient-to-r from-teal-500 via-cyan-500 to-blue-500 dark:from-teal-300 dark:via-cyan-300 dark:to-blue-300 bg-clip-text text-transparent">
               Tech Gadgets
             </span>
@@ -108,7 +105,7 @@ const ProductHighlights = () => {
                 New gadgets coming soon!
               </h3>
               <p className="text-muted-foreground">
-                We're preparing our latest tech innovations for you.
+                We are preparing our latest tech innovations for you.
               </p>
             </div>
           ) : (
