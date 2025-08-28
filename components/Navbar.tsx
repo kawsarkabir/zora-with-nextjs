@@ -78,7 +78,7 @@ const Navbar = ({ sideMenu }: NavbarProps) => {
               <div className="w-8 h-8 rounded-lg bg-gradient-to-r from-teal-500 to-blue-600 flex items-center justify-center mr-2">
                 <span className="text-white font-bold text-sm">PH</span>
               </div>
-              ProductHub
+              Zora
             </Link>
 
             {/* Search Bar - Desktop */}

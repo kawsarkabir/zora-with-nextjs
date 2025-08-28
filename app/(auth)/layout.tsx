@@ -42,7 +42,6 @@ export default async function RootLayout({
         >
           <SessionProvider>
             <Navbar sideMenu={false} />
-
             {children}
             <Footer />
           </SessionProvider>

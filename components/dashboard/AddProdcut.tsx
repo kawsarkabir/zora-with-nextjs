@@ -123,10 +123,10 @@ const AddProduct = () => {
                       <SelectValue placeholder="Select category" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="AI Tool">AI Tool</SelectItem>
-                      <SelectItem value="Productivity">Productivity</SelectItem>
-                      <SelectItem value="Analytics">Analytics</SelectItem>
-                      <SelectItem value="Automation">Automation</SelectItem>
+                      <SelectItem value="Smartphones">Smartphones</SelectItem>
+                      <SelectItem value="Laptops">Laptops</SelectItem>
+                      <SelectItem value="Accessories">Accessories</SelectItem>
+                      <SelectItem value="Wearables">Wearables</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>

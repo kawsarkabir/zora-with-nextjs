@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import { ThemeProvider } from "next-themes";
 import Header from "@/components/dashboard/Header";
 import { SessionProvider } from "next-auth/react";
+import Navbar from "@/components/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -41,7 +42,7 @@ export default async function RootLayout({
           disableTransitionOnChange
         >
           <SessionProvider>
-            <Header />
+            <Navbar />
             {children}
             <Footer />
           </SessionProvider>
